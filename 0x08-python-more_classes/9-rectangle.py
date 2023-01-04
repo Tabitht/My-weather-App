@@ -1,20 +1,3 @@
-
-Faitholo
-/
-alx-higher_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-higher_level_programming/0x08-python-more_classes/9-rectangle.py
-@Faitholo
-Faitholo 0x08-python-more_classes
- 1 contributor
-132 lines (116 sloc)  3.95 KB
 #!/usr/bin/python3
 
 '''module: 9-rectangle

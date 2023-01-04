@@ -1,20 +1,3 @@
-
-Faitholo
-/
-alx-higher_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-higher_level_programming/0x08-python-more_classes/7-rectangle.py
-@Faitholo
-Faitholo 0x08-python-more_classes
- 1 contributor
-112 lines (98 sloc)  3.27 KB
 #!/usr/bin/python3
 
 '''module: 7-rectangle
