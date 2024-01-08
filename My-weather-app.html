@@ -4,27 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="My-weather-app.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <title>My Weather App</title>
 </head>
 <body>
     <div class="all-body">
     <header>
-        <form>
-            <input type="search" placeholder="Enter a city..." required/>
-            <input type="submit" value="search"/>
+        <form class="search-form">
+            <input type="search" placeholder="Enter a city..." required class="search-city"/>
+            <input type="submit" value="search" class="button"/>
         </form>
     </header>
     <main>
-        <div>
-            <h1>Nigeria</h1>
-            <p>
-                Saturday 15:20, clear skies
-                <br/>
-                Humidity: 57%, Wind: 7.2km/h
-            </p>
-        </div>
-        <div>
-           🌤️ 15&deg;C
+        <div class="general-div">
+            <div>
+                <h1 class="city-name">Nigeria</h1>
+                <div class="city-details">
+                   <p> Saturday 15:20, clear skies</p>
+                   <p> Humidity: <strong>57%</strong>, Wind: <strong>7.2km/h</strong></p>
+                </div>
+            </div>
+            <div class="city-temp">
+            <div class="emoji">🌤️</div>
+            <div class="number-celsius">15</div>
+            <div class="celsius">&deg;C</div>
+            </div>
         </div>
     </main>
     <footer>

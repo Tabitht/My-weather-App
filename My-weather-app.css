@@ -2,10 +2,75 @@ body {
     background-color: #f9f7fe;
 }
 .all-body {
-    background-color: wheat;
-    max-width: 500px;
+    background-color: rgb(250, 223, 223);
+    max-width: 700px;
     margin: 60px auto;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
     border-radius: 15px;
     padding: 50px;
+    font-family: 'Playfair Display', serif;
+}
+header {
+    padding-top: 15px;
+}
+main {
+    padding-bottom: 70px;
+    font-weight: bold;
+}
+.search-city{
+    background-color: rgb(224, 194, 194);
+    width: 80% ;
+    border-radius: 10px;
+    padding: 12px 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+
+}
+.button{
+    background-color: rgb(199, 153, 153);
+    border-radius: 8px;
+    width: 15%;
+    padding: 10px 8px 10px 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.general-div {
+    display: flex;
+    justify-content: space-between;
+}
+.city-name {
+    margin-top: 70px;
+    font-size: 40px;
+    line-height: 38px;
+}
+.city-details {
+    font-size: 20px;
+    line-height: 10px;
+    color: rgb(83, 71, 71) ;
+}
+.city-details strong {
+    color: rgb(173, 38, 38);
+}
+.city-temp {
+    display: flex;
+}
+.number-celsius {
+    font-size: 70px;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.emoji{
+    font-size: 50px;
+    margin-top: 40px;
+}
+.celsius {
+    font-size: 50px;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+a {
+    color: rgb(241, 62, 62);
+}
+footer {
+    text-align: center;
 }
