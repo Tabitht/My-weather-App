@@ -34,6 +34,9 @@ main {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+:hover.button {
+    color: antiquewhite;
+}
 .general-div {
     display: flex;
     justify-content: space-between;
