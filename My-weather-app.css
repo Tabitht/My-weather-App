@@ -2,7 +2,7 @@ body {
     background-color: #f9f7fe;
 }
 .all-body {
-    background-color: rgb(250, 223, 223);
+    background-color: rgb(248, 239, 239);
     max-width: 700px;
     margin: 60px auto;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
@@ -18,7 +18,7 @@ main {
     font-weight: bold;
 }
 .search-city{
-    background-color: rgb(224, 194, 194);
+    background-color: rgb(241, 224, 224);
     width: 80% ;
     border-radius: 10px;
     padding: 12px 15px;
@@ -27,7 +27,7 @@ main {
 
 }
 .button{
-    background-color: rgb(199, 153, 153);
+    background-color: rgb(207, 180, 180);
     border-radius: 8px;
     width: 15%;
     padding: 10px 8px 10px 8px;
