@@ -7,6 +7,8 @@ function citydata(response){
     let wind = document.querySelector("#windspeed");
     let time = document.querySelector("#time");
     let date = new Date(response.data.time * 1000);
+    let emoji = document.querySelector("#icon");
+    emoji.innerHTML = `<img src="${response.data.condition.icon_url}" class="emoji" />`;
     time.innerHTML = realdate(date);
     wind.innerHTML = response.data.wind.speed
     humidity.innerHTML = response.data.temperature.humidity
