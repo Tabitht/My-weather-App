@@ -80,3 +80,20 @@ a {
 footer {
     text-align: center;
 }
+@media (max-width: 576px){
+    .button{
+        font-size: 10px;
+    }
+    .number-celsius {
+        font-size: 50px;
+    }
+    .celsius {
+        font-size: 20px;
+    }
+    .city-name{
+        font-size: 25px;
+    }
+    .emoji{
+        font-size: 30px;
+    }
+}
